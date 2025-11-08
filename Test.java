@@ -5,4 +5,12 @@ public class Test {
     public Test(String name) {
         this.name = name;
     }
+    public void testMethod(int x) {
+    if (x > 0) {
+        System.out.println("Positive");
+    } else {
+        System.out.println("Non-positive");
+    }
+    return;
+}
 }
